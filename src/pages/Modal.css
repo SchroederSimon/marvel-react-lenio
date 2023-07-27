@@ -1,0 +1,43 @@
+.list-comics {
+    list-style: none;
+}
+
+.list-comics{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.content-comics{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.content-comics h2{
+    align-self: flex-start;
+}
+.content-comics img{
+    width: 38%;
+    border-radius: 10px;
+}
+
+.content-comics h3{
+    align-self: flex-start;
+}
+.comic-button{
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+}
+.comic-button button{
+    padding: 80%;
+    background-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
